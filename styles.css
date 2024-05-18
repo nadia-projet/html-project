@@ -148,7 +148,7 @@ p, ul, li, h1, h2, h3, h4 {
  
 .form .submit:hover {
     background:#ffc0cb;
-    color:#ffffff;
+    color:red;
  }
 
  input[type=text], select, textarea {
