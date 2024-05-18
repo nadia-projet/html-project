@@ -1,0 +1,159 @@
+body {
+
+    background:#f0f0f9;
+    font-family: 'Roboto';
+    color:#545454;
+    font-size: 18px;
+    border:1px solid red;
+}
+
+p, ul, li, h1, h2, h3, h4 {
+    margin:0;
+    padding:0;
+
+}
+.navigation {
+
+    margin:20px 0 30px;
+    text-align: right;
+}
+
+.navigation ul {
+    text-align: right;
+}
+
+.navigation ul li {
+
+    display: inline;
+    font-size:16px;
+    margin:0 10px;
+}
+
+.navigation ul li a {
+    color:#545454;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.group-section {
+ border:1px solid red;
+ margin: 30px 0;
+}
+
+.group-section h1 {
+    border:1px solid blue;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+.group-section h2 {
+    border:1px solid lime;
+    font-size: 26px;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.group-section p {
+    border:1px solid yellow;
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+
+.first-section {
+   overflow: auto;
+
+}
+.first-section p {
+    font-size: 24px;
+}
+
+.social-networks {
+
+    margin: 0 0 15px 0;
+ }
+
+.social-networks li {
+
+   display: inline-block;
+   border:2px solid #ffc0cb;
+   border-radius: 30px;
+   padding:9px;
+}
+
+.social-networks li:hover {
+
+  background:#ffc0cb;
+
+ }
+
+ .first-section button {
+    border:2px solid #ffc0cb;
+    border-radius: 30px;
+    padding:9px;
+    cursor: pointer;
+ }
+
+ .first-section button:hover {
+    background:#ffc0cb;
+    color:#ffffff;
+ }
+
+ .float-right {
+    float:right;
+    
+ }
+
+ .float-left {
+    float:left;
+ }
+
+ .profile-picture {
+    width: 40%;
+ }
+
+ .profile-text {
+    width: 58%;
+    margin-right:2%;
+ }
+
+ .center {
+    text-align: center;
+ }
+
+ footer {
+    text-align: center;
+ }
+
+ footer p {
+    margin: 0 0 15px 0;
+ }
+
+ .group-section table {
+    width: 60%;
+    margin: auto;
+}
+.form {
+    border:1px solid red;
+}
+
+.form .submit {
+    border:2px solid #ffc0cb;
+    border-radius: 30px;
+    padding:9px;
+    cursor: pointer;
+}
+ 
+.form .submit:hover {
+    background:#ffc0cb;
+    color:#ffffff;
+ }
+
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
