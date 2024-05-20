@@ -1,30 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   
+   }
+   
 body {
 
     background:#f0f0f9;
     font-family: 'Roboto';
     color:#545454;
     font-size: 18px;
-    border:1px solid red;
-}
-
-p, ul, li, h1, h2, h3, h4 {
-    margin:0;
-    padding:0;
-
 }
 .navigation {
 
-    margin:20px 0 30px;
+    margin:20px 2% 30px;
     text-align: right;
+    font-size:20px;
 }
 
 .navigation ul {
-    text-align: right;
+    list-style: none;
 }
 
 .navigation ul li {
-
-    display: inline;
+    display: inline-block;
     font-size:16px;
     margin:0 10px;
 }
@@ -39,33 +39,30 @@ p, ul, li, h1, h2, h3, h4 {
 }
 
 .group-section {
- border:1px solid red;
- margin: 30px 0;
+ margin: 30px 2%;
 }
 
 .group-section h1 {
-    border:1px solid blue;
     font-size: 30px;
     margin: 0 0 20px 0;
 }
 
 .group-section h2 {
-    border:1px solid lime;
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
     margin: 0 0 15px 0;
 }
 
+.group-section h3 {
+    font-size: 24px;
+    margin: 0 0 15px 0;
+}
+
 .group-section p {
-    border:1px solid yellow;
     font-size: 18px;
     margin: 0 0 15px 0;
 }
 
-.first-section {
-   overflow: auto;
-
-}
 .first-section p {
     font-size: 24px;
 }
@@ -73,6 +70,7 @@ p, ul, li, h1, h2, h3, h4 {
 .social-networks {
 
     margin: 0 0 15px 0;
+    list-style:none;
  }
 
 .social-networks li {
@@ -87,6 +85,12 @@ p, ul, li, h1, h2, h3, h4 {
 
   background:#ffc0cb;
 
+ }
+
+ .social-networks li img {
+
+    width: 40px;
+    height:40px;
  }
 
  .first-section button {
@@ -114,13 +118,59 @@ p, ul, li, h1, h2, h3, h4 {
     width: 40%;
  }
 
+ .profile-picture img {
+    width: 100%;
+    height:auto;
+ }
+
  .profile-text {
     width: 58%;
     margin-right:2%;
  }
 
+ .profile-text-bis {
+    width: 58%;
+    margin-left:2%;
+ }
+
  .center {
     text-align: center;
+ }
+
+ .overflow {
+    overflow: auto;
+ }
+
+ .info h4 {
+    color:#ff0000;
+    margin:0 0 5px;
+ }
+
+ .col-1 {
+    width:48%;
+    margin-right:2%;
+ }
+
+ .col-2 {
+    width:48%;
+    margin-right:2%;
+ }
+
+ .function, .contact {
+
+    width:48%;
+    padding:1%;
+    margin-right:2%;
+    margin-bottom:15px;
+    border:2px solid #ffc0cb;
+    border-radius: 5px;
+ }
+
+ .function img, .contact img {
+
+    width:40px;
+    height:40px;
+    margin: 0 0 5px;
  }
 
  footer {
@@ -135,9 +185,6 @@ p, ul, li, h1, h2, h3, h4 {
     width: 60%;
     margin: auto;
 }
-.form {
-    border:1px solid red;
-}
 
 .form .submit {
     border:2px solid #ffc0cb;
@@ -148,12 +195,15 @@ p, ul, li, h1, h2, h3, h4 {
  
 .form .submit:hover {
     background:#ffc0cb;
-    color:red;
+    color:#ffffff;
  }
 
- input[type=text], select, textarea {
-    width: 100%;
+ input[type=text], input[type=email], textarea {
+    display: block;
+    width: 60%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin: 0 0 15px;
+    font-family: 'Roboto';
   }
